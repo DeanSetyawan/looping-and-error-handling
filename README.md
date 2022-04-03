@@ -8,7 +8,7 @@
 
 to handle error, we need to know what kind error can occur in python
 
-* error type
+*> error type
 
 need to note that some reference divided error into 3 part and some into 2 part with different interpretation exception. if divided into 2 part means logical error and exception is same and if divided into 3 part means logical and exception error different. here, we take if error divided into 3 part with each of its definition is
 
@@ -16,7 +16,7 @@ need to note that some reference divided error into 3 part and some into 2 part 
    - exception error may occur in syntactically correct code blocks at run time. When Python cannot execute the requested action, it terminates the code and raises an error message.
    - logical error are the most difficult errors to fix as they don’t crash your code and you don’t get any error message. so, logical error occour when we dont get the result we want but the program still running
 
-* handling error
+*> handling error
 
 handling error different for each type of error
 
